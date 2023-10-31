@@ -1,0 +1,41 @@
+```{r}
+install.packages("e1071")
+library(e1071)
+```
+
+```{r}
+plot(iris[,1:4])
+print("RRR")
+```
+Diretório de Trabalho
+```{r}
+getwd()
+setwd("/home")
+```
+Tipo de objeto
+```{r}
+class(iris)
+plot(iris)
+```
+Salvar objeto
+```{r}
+#clona 
+irisclone = iris
+# salva
+save(irisclone, file="irisclone.Rdata")
+#remove do r
+rm(irisclone)
+#testa remoção
+irisclone
+```
+```{r}
+x = c(12,34,56,79)
+y = c(1,6,9,14)
+plot(x,y)
+class(x)
+```
+
+```{r}
+plot(iris[,1:4])
+
+```
